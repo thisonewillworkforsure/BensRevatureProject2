@@ -40,6 +40,7 @@ public class UserServiceImp implements UserService {
 	@Override
 	public UserPojo getOneUser(String userName, String passWord) throws ApplicationException {
 		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
@@ -67,13 +68,18 @@ public class UserServiceImp implements UserService {
 	@Override
 	public UserPojo updateUser(UserPojo userPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		logger.info("Entered updateUser in the service layer");
+		UsersEntity usersEntity = new UsersEntity();
+		BeanUtils.copyProperties(userPojo, usersEntity);
+		userDao.save(usersEntity);
+		return userPojo;
 	}
 
 	@Override
 	public void deleteUser(int userID) throws ApplicationException {
 		// TODO Auto-generated method stub
-		
+		logger.info("Entering the deleteUser method in the service layer");
+		userDao.deleteById(userID);
 	}
 
 }

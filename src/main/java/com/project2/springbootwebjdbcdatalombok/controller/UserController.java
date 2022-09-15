@@ -3,8 +3,11 @@ package com.project2.springbootwebjdbcdatalombok.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,6 +37,18 @@ public class UserController {
 		userPojo = userService.createUser(userPojo);
 		return userPojo;
 	}
+	
+	@PutMapping("")
+	public UserPojo updateUser(@RequestBody UserPojo userPojo) throws ApplicationException{
+		
+		return userService.updateUser(userPojo);
+	}
+	
+	@DeleteMapping("/{bid}")
+	public void deleteUser(@PathVariable("bid") int id) throws ApplicationException {
+		userService.deleteUser(id);
+	}
+	
 	
 	@PostMapping("/test")
 	public UserPojo createUser(int s, int t, String u, String p) throws ApplicationException{
