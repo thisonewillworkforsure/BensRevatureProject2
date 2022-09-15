@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -45,7 +46,22 @@ public class UserServiceImp implements UserService {
 	@Override
 	public UserPojo createUser(UserPojo userPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		try {
+			System.out.println(userPojo);
+			UsersEntity usersEntity = new UsersEntity();
+			usersEntity.setStatusID(userPojo.getStatusID());
+			usersEntity.setTypeID(userPojo.getTypeID());
+			usersEntity.setUserName(userPojo.getUserName());
+			usersEntity.setUserPassword(userPojo.getUserPassword());
+			userDao.saveAndFlush(usersEntity);
+			userPojo.setUserID(usersEntity.getUserID());
+			return userPojo;
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+			throw e;
+		}
+	
+
 	}
 
 	@Override

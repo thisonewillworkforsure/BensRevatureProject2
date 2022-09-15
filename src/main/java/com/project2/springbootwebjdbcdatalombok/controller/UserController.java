@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,6 +26,24 @@ public class UserController {
 	public List<UserPojo> getAllUsers() throws ApplicationException{
 		
 		return userService.getAllUsers();
+	}
+	
+	@PostMapping("")
+	public UserPojo createUser(@RequestBody UserPojo userPojo) throws ApplicationException{
+		System.out.println("this is in the CONTROLLER! : " + userPojo);
+		userPojo = userService.createUser(userPojo);
+		return userPojo;
+	}
+	
+	@PostMapping("/test")
+	public UserPojo createUser(int s, int t, String u, String p) throws ApplicationException{
+		UserPojo userPojo = new UserPojo();
+		userPojo.setStatusID(s);
+		userPojo.setTypeID(t);
+		userPojo.setUserName(u);
+		userPojo.setUserPassword(p);
+		userPojo = userService.createUser(userPojo);
+		return userPojo;
 	}
 	
 }
