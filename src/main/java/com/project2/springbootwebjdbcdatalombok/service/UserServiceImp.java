@@ -40,7 +40,12 @@ public class UserServiceImp implements UserService {
 	@Override
 	public UserPojo getOneUser(String userName, String passWord) throws ApplicationException {
 		// TODO Auto-generated method stub
-		
+		List<UsersEntity> usersEntities = userDao.findByUserNameAndUserPassword(userName, passWord);
+		if(usersEntities.size() != 0) {
+		UserPojo userPojo = new UserPojo();	
+		BeanUtils.copyProperties(usersEntities.get(0), userPojo);
+		return userPojo;
+		}
 		return null;
 	}
 

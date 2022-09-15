@@ -31,6 +31,11 @@ public class UserController {
 		return userService.getAllUsers();
 	}
 	
+	@GetMapping("/one")
+	public UserPojo getOneUser(String userName, String passWord) throws ApplicationException {
+		return userService.getOneUser(userName, passWord);
+	}
+	
 	@PostMapping("")
 	public UserPojo createUser(@RequestBody UserPojo userPojo) throws ApplicationException{
 		System.out.println("this is in the CONTROLLER! : " + userPojo);
