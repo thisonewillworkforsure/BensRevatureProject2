@@ -3,6 +3,7 @@ package com.project2.springbootwebjdbcdatalombok.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,10 @@ import com.project2.springbootwebjdbcdatalombok.pojo.UserPojo;
 import com.project2.springbootwebjdbcdatalombok.service.UserService;
 
 import lombok.Getter;
+
+//if you need data validation it needs @validated!
+
+
 
 @RestController
 @RequestMapping("api/users")
@@ -37,7 +42,7 @@ public class UserController {
 	}
 	
 	@PostMapping("")
-	public UserPojo createUser(@RequestBody UserPojo userPojo) throws ApplicationException{
+	public UserPojo createUser(@Validated @RequestBody UserPojo userPojo) throws ApplicationException{
 		System.out.println("this is in the CONTROLLER! : " + userPojo);
 		userPojo = userService.createUser(userPojo);
 		return userPojo;
