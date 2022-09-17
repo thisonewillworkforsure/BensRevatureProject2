@@ -15,5 +15,5 @@ public interface ProductService {
 	
 	ProductPojo updateProduct(ProductPojo productPojo) throws ApplicationException;
 	
-	void deleteProduct(ProductPojo productPojo) throws ApplicationException;
+	void deleteProduct(int id) throws ApplicationException;
 }
