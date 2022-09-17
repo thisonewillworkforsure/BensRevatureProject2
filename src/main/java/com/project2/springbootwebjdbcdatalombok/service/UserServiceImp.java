@@ -27,7 +27,7 @@ public class UserServiceImp implements UserService {
 	@Override
 	public List<UserPojo> getAllUsers() throws ApplicationException {
 		// TODO Auto-generated method stub
-		logger.info("Invoking getAllUsers in the service layer");
+		//logger.info("Invoking getAllUsers in the service layer");
 		List<UsersEntity> allUsersEntities = userDao.findAll();
 		List<UserPojo> allUserPojos = new ArrayList<UserPojo>();
 		allUsersEntities.forEach((user)->{
@@ -73,7 +73,7 @@ public class UserServiceImp implements UserService {
 	@Override
 	public UserPojo updateUser(UserPojo userPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		logger.info("Entered updateUser in the service layer");
+		//logger.info("Entered updateUser in the service layer");
 		UsersEntity usersEntity = new UsersEntity();
 		BeanUtils.copyProperties(userPojo, usersEntity);
 		userDao.save(usersEntity);
@@ -83,7 +83,7 @@ public class UserServiceImp implements UserService {
 	@Override
 	public void deleteUser(int userID) throws ApplicationException {
 		// TODO Auto-generated method stub
-		logger.info("Entering the deleteUser method in the service layer");
+		//logger.info("Entering the deleteUser method in the service layer");
 		userDao.deleteById(userID);
 	}
 

@@ -40,4 +40,21 @@ public class LoggingAspect
   
         return result;
     }
+  
+  @Around("execution(* com.project2.springbootwebjdbcdatalombok..*(..)))")
+  public Object logAllMethods(ProceedingJoinPoint proceedingJoinPoint) throws Throwable 
+  {
+      MethodSignature methodSignature = (MethodSignature) proceedingJoinPoint.getSignature();
+        
+      //Get intercepted method details
+      String className = methodSignature.getDeclaringType().getSimpleName();
+      String methodName = methodSignature.getName();
+
+      
+      LOGGER.info("Entered " + methodName + " of " + className);
+      Object result = proceedingJoinPoint.proceed(); // in this line the actual methods get called
+      LOGGER.info("Exited " + methodName + " of " + className);
+      
+      return result;
+  }
 }
