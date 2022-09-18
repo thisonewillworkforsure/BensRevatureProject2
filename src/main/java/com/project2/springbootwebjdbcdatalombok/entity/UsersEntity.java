@@ -2,9 +2,11 @@ package com.project2.springbootwebjdbcdatalombok.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
@@ -28,6 +30,7 @@ public class UsersEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //for the primary key
+	
 	@Column(name="user_id")
 	private int userID;
 	
@@ -42,4 +45,11 @@ public class UsersEntity {
 	
 	@Column(name="status_id")
 	private int statusID;
+	
+	
+	/*@OneToOne(mappedBy = "UsersEntity", fetch = FetchType.LAZY, orphanRemoval = false)
+	private ProfileEntity profileEntity = new ProfileEntity();*/
+	
+    /*@OneToMany(mappedBy = "user", fetch = FetchType.LAZY, orphanRemoval = false)
+    private List<Authority> listAuthorities = new ArrayList<>();*/
 }

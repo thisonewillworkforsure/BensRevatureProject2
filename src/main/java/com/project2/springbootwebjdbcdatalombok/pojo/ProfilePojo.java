@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class ProfilePojo {
 	
 	private int profileID;
-	private int userID;
+	private Integer userID;
 	private String iconImg;
 	private String firstName;
 	private String lastName;
