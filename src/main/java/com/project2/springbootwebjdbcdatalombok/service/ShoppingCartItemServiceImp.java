@@ -3,6 +3,7 @@ package com.project2.springbootwebjdbcdatalombok.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,21 +47,29 @@ public class ShoppingCartItemServiceImp implements ShoppingCartItemService {
 	@Override
 	public ShoppingCartItemPojo createShoppingCartItem(ShoppingCartItemPojo shoppingCartItemPojo)
 			throws ApplicationException {
-		// TODO Auto-generated method stub
-		return null;
+		ShoppingCartItemEntity shoppingCartItemEntity = new ShoppingCartItemEntity();
+		shoppingCartItemEntity.setProductID(shoppingCartItemPojo.getProductID());
+		shoppingCartItemEntity.setQuantity(shoppingCartItemPojo.getQuantity());
+		shoppingCartItemEntity.setShoppingStatusID(shoppingCartItemPojo.getShoppingStatusID());
+		shoppingCartItemEntity.setUserID(shoppingCartItemPojo.getUserID());
+		shoppingCartItemDao.saveAndFlush(shoppingCartItemEntity);
+		shoppingCartItemPojo.setShoppingID(shoppingCartItemEntity.getShoppingID());
+		return shoppingCartItemPojo;
 	}
 
 	@Override
 	public ShoppingCartItemPojo updateShoppingCartItem(ShoppingCartItemPojo shoppingCartItemPojo)
 			throws ApplicationException {
-		// TODO Auto-generated method stub
-		return null;
+		ShoppingCartItemEntity shoppingCartItemEntity = new ShoppingCartItemEntity();
+		BeanUtils.copyProperties(shoppingCartItemPojo, shoppingCartItemEntity);
+		shoppingCartItemDao.save(shoppingCartItemEntity);
+		return shoppingCartItemPojo;
 	}
 
 	@Override
 	public void deleteShoppingCartItem(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		
+		shoppingCartItemDao.deleteById(id);
 	}
 
 	@Override
