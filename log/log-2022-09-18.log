@@ -617,3 +617,157 @@ org.postgresql.util.PSQLException: ERROR: insert or update on table "profile" vi
 [http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProfile of ProfileServiceImp
 [http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getAllProfile :: 2 ms
 [http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProfile of ProfileController
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 19944 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1198 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.304 seconds (JVM running for 3.644)
+[http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItem :: 111 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItem :: 118 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemController
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 3904 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1234 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.328 seconds (JVM running for 3.672)
+[http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItem :: 115 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItem :: 122 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemController
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 19212 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.354 seconds (JVM running for 3.693)
+[http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItem :: 90 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItem :: 96 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemController
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 14620 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.504 seconds (JVM running for 3.85)
+[http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItem :: 152 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItem :: 159 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 21 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 21 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 22 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController

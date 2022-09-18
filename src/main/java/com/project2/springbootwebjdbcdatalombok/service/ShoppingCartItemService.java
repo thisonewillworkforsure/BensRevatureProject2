@@ -9,6 +9,8 @@ public interface ShoppingCartItemService {
 
 	List<ShoppingCartItemPojo> getAllShoppingCartItem() throws ApplicationException;
 	
+	List<ShoppingCartItemPojo> getAllShoppingCartItemForOne(int id) throws ApplicationException;
+	
 	ShoppingCartItemPojo getOneShoppingCartItem(int id) throws ApplicationException;
 	
 	ShoppingCartItemPojo createShoppingCartItem(ShoppingCartItemPojo shoppingCartItemPojo) throws ApplicationException;
