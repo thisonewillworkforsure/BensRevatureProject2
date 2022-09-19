@@ -32,27 +32,40 @@ public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
 	}
 
 	@Override
-	public List<PurchaseHistoryPojo> getOnePurchaseHistory() throws ApplicationException {
+	public PurchaseHistoryPojo getOnePurchaseHistory(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		List<PurchaseHistoryEntity> entities = purchaseHistoryDao.findByPurchaseHistoryID(id);
+		PurchaseHistoryPojo pojo = new PurchaseHistoryPojo();
+		for(PurchaseHistoryEntity ent: entities) {
+			BeanUtils.copyProperties(ent, pojo);
+		}
+		return pojo;
 	}
 
 	@Override
-	public PurchaseHistoryPojo createPurchaseHistory() throws ApplicationException {
+	public PurchaseHistoryPojo createPurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		PurchaseHistoryEntity purchaseHistoryEntity = new PurchaseHistoryEntity();
+		purchaseHistoryEntity.setPurchaseID(purchaseHistoryPojo.getPurchaseID());
+		purchaseHistoryEntity.setShoppingID(purchaseHistoryPojo.getShoppingID());
+		purchaseHistoryDao.saveAndFlush(purchaseHistoryEntity);
+		purchaseHistoryPojo.setPurchaseHistoryID(purchaseHistoryEntity.getPurchaseHistoryID());
+		return purchaseHistoryPojo;
 	}
 
 	@Override
-	public PurchaseHistoryPojo updatePurchaseHistory() throws ApplicationException {
+	public PurchaseHistoryPojo updatePurchaseHistory( PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		PurchaseHistoryEntity purchaseHistoryEntity = new PurchaseHistoryEntity();
+		BeanUtils.copyProperties(purchaseHistoryPojo, purchaseHistoryEntity);
+		purchaseHistoryDao.save(purchaseHistoryEntity);
+		return purchaseHistoryPojo;
 	}
 
 	@Override
 	public void deletePurchaseHistory(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		
+		purchaseHistoryDao.deleteById(id);
 	}
 
 }

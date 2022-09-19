@@ -10,11 +10,11 @@ public interface PurchaseHistoryService {
 	
 	List<PurchaseHistoryPojo> getAllPurchaseHistory() throws ApplicationException;
 	
-	List<PurchaseHistoryPojo> getOnePurchaseHistory() throws ApplicationException;
+	PurchaseHistoryPojo getOnePurchaseHistory(int id) throws ApplicationException;
 	
-	PurchaseHistoryPojo createPurchaseHistory() throws ApplicationException;
+	PurchaseHistoryPojo createPurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException;
 	
-	PurchaseHistoryPojo updatePurchaseHistory() throws ApplicationException;
+	PurchaseHistoryPojo updatePurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException;
 	
 	void deletePurchaseHistory(int id) throws ApplicationException;
 	
