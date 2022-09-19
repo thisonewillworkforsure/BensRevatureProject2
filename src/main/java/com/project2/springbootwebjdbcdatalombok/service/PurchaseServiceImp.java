@@ -34,7 +34,14 @@ public class PurchaseServiceImp implements PurchaseService {
 	@Override
 	public List<PurchasePojo> getAllPurchaseForOne(int user_id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		List<PurchaseEntity> purchaseEntities =  purchaseDao.findByUserID(user_id);
+		List<PurchasePojo> purchasePojos = new ArrayList<>();
+		for(PurchaseEntity ent : purchaseEntities) {
+			PurchasePojo purchasePojo = new PurchasePojo();
+			BeanUtils.copyProperties(ent, purchasePojo);
+			purchasePojos.add(purchasePojo);
+		}
+		return purchasePojos;
 	}
 
 	@Override
@@ -46,19 +53,29 @@ public class PurchaseServiceImp implements PurchaseService {
 	@Override
 	public PurchasePojo createPurchase(PurchasePojo purchasePojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		PurchaseEntity purchaseEntity = new PurchaseEntity();
+		purchaseEntity.setPurchaseDate(purchasePojo.getPurchaseDate());
+		purchaseEntity.setTotalCost(purchasePojo.getTotalCost());
+		purchaseEntity.setUserID(purchasePojo.getUserID());
+		purchaseDao.saveAndFlush(purchaseEntity);
+		purchasePojo.setPurchaseID(purchaseEntity.getPurchaseID());
+		return purchasePojo;
+		
 	}
 
 	@Override
 	public PurchasePojo updatePurchase(PurchasePojo purchasePojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		return null;
+		PurchaseEntity purchaseEntity = new PurchaseEntity();
+		BeanUtils.copyProperties(purchasePojo, purchaseEntity);
+		purchaseDao.save(purchaseEntity);
+		return purchasePojo;
 	}
 
 	@Override
 	public void deletePurchase(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		
+		purchaseDao.deleteById(id);
 	}
 
 }
