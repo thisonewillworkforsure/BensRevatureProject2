@@ -8,4 +8,5 @@ import com.project2.springbootwebjdbcdatalombok.entity.ProfileEntity;
 @Repository
 public interface ProfileDao extends JpaRepository<ProfileEntity, Integer> {
 
+	ProfileEntity findByUserID(int id);
 }

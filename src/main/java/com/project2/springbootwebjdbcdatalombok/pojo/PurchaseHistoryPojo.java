@@ -1,5 +1,7 @@
 package com.project2.springbootwebjdbcdatalombok.pojo;
 
+
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +12,6 @@ import lombok.NoArgsConstructor;
 public class PurchaseHistoryPojo {
 	
 	int purchaseHistoryID;
-	int purchaseID;
-	int shoppingID;
+	PurchasePojo purchasePojo;
+	ShoppingCartItemPojo shoppingCartItemPojo;
 }

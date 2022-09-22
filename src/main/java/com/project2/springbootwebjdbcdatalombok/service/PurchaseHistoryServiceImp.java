@@ -11,6 +11,8 @@ import com.project2.springbootwebjdbcdatalombok.dao.PurchaseHistoryDao;
 import com.project2.springbootwebjdbcdatalombok.entity.PurchaseHistoryEntity;
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchaseHistoryPojo;
+import com.project2.springbootwebjdbcdatalombok.pojo.PurchasePojo;
+import com.project2.springbootwebjdbcdatalombok.pojo.ShoppingCartItemPojo;
 
 @Service
 public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
@@ -25,7 +27,14 @@ public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
 		List<PurchaseHistoryPojo> pojos = new ArrayList<PurchaseHistoryPojo>();
 		for(PurchaseHistoryEntity ent: entities) {
 			PurchaseHistoryPojo pojo = new PurchaseHistoryPojo();
-			BeanUtils.copyProperties(ent, pojo);
+			PurchasePojo purchasePojo = new PurchasePojo();
+			ShoppingCartItemPojo shoppingCartItemPojo = new ShoppingCartItemPojo();
+			System.out.println(ent.getPurchaseHistoryID() +" " + ent.getPurchaseEntity() + " " + ent.getShoppingCartItemEntity());
+			BeanUtils.copyProperties(purchasePojo, ent.getPurchaseEntity());
+			BeanUtils.copyProperties(shoppingCartItemPojo, ent.getShoppingCartItemEntity());
+			pojo.setPurchasePojo(purchasePojo);
+			pojo.setShoppingCartItemPojo(shoppingCartItemPojo);
+			pojo.setPurchaseHistoryID(ent.getPurchaseHistoryID());
 			pojos.add(pojo);
 		}
 		return pojos;
@@ -45,11 +54,11 @@ public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
 	@Override
 	public PurchaseHistoryPojo createPurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
-		PurchaseHistoryEntity purchaseHistoryEntity = new PurchaseHistoryEntity();
+		/*PurchaseHistoryEntity purchaseHistoryEntity = new PurchaseHistoryEntity();
 		purchaseHistoryEntity.setPurchaseID(purchaseHistoryPojo.getPurchaseID());
 		purchaseHistoryEntity.setShoppingID(purchaseHistoryPojo.getShoppingID());
 		purchaseHistoryDao.saveAndFlush(purchaseHistoryEntity);
-		purchaseHistoryPojo.setPurchaseHistoryID(purchaseHistoryEntity.getPurchaseHistoryID());
+		purchaseHistoryPojo.setPurchaseHistoryID(purchaseHistoryEntity.getPurchaseHistoryID());*/
 		return purchaseHistoryPojo;
 	}
 

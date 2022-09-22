@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,7 +23,7 @@ import lombok.Getter;
 //if you need data validation it needs @validated!
 
 
-
+@CrossOrigin
 @RestController
 @RequestMapping("api/users")
 public class UserController {
@@ -36,7 +37,7 @@ public class UserController {
 		return userService.getAllUsers();
 	}
 	
-	@GetMapping("/one")
+	@GetMapping("/user")
 	public UserPojo getOneUser(String userName, String passWord) throws ApplicationException {
 		return userService.getOneUser(userName, passWord);
 	}

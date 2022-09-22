@@ -42,11 +42,11 @@ public class ProfileServiceImp implements ProfileService {
 	@Override
 	public ProfilePojo getOneProfile(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		Optional<ProfileEntity> optional = profileDao.findById(id);
+		ProfileEntity optional = profileDao.findByUserID(id);
 		ProfilePojo profilePojo = null;
-		if(optional.isPresent()) {
+		if(optional != null) {
 			profilePojo = new ProfilePojo();
-			BeanUtils.copyProperties(optional.get(), profilePojo);
+			BeanUtils.copyProperties(optional, profilePojo);
 		}
 		return profilePojo;
 	}
