@@ -1,0 +1,306 @@
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 5512 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 6 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1361 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.873 seconds (JVM running for 4.254)
+[http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 123 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 130 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 11 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 15 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 16 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 6 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 13 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 18 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered updateProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered updateProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 44 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.updateProfile :: 48 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited updateProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.updateProfile :: 48 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited updateProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 3 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 4 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 11948 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1322 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.614 seconds (JVM running for 3.965)
+[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Starting SpringBootWebJdbcDataLombokApplication using Java 14.0.2 on DESKTOP-8GQOME2 with PID 16120 (C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok\target\classes started by Ben62 in C:\Users\Ben62\eclipse-workspace\spring-boot-web-jdbc-data-lombok.zip_expanded\spring-boot-web-jdbc-data-lombok)
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 6 JPA repository interfaces.
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
+[restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+[restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[restartedMain] INFO  c.p.s.SpringBootWebJdbcDataLombokApplication - Started SpringBootWebJdbcDataLombokApplication in 3.536 seconds (JVM running for 3.891)
+[http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 89 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 98 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 108 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 5 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 12 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 17 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 23 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 24 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 4 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 3 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 3 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 3 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 16 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 20 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController

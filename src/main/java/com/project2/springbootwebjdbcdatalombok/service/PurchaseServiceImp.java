@@ -11,6 +11,7 @@ import com.project2.springbootwebjdbcdatalombok.dao.PurchaseDao;
 import com.project2.springbootwebjdbcdatalombok.entity.PurchaseEntity;
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchasePojo;
+import com.project2.springbootwebjdbcdatalombok.pojo.ShoppingCartItemPojo;
 
 @Service
 public class PurchaseServiceImp implements PurchaseService {
@@ -26,6 +27,13 @@ public class PurchaseServiceImp implements PurchaseService {
 		for(PurchaseEntity ent : purchaseEntities) {
 			PurchasePojo purchasePojo = new PurchasePojo();
 			BeanUtils.copyProperties(ent, purchasePojo);
+			List<ShoppingCartItemPojo> pojos = new ArrayList<ShoppingCartItemPojo>();
+			ent.getShoppingCartItemEntities().forEach((shops)->{
+				ShoppingCartItemPojo shopPojo = new ShoppingCartItemPojo();
+				BeanUtils.copyProperties(shops, shopPojo);
+				pojos.add(shopPojo);
+			});
+			purchasePojo.setShoppingCartItemPojos(pojos);
 			purchasePojos.add(purchasePojo);
 		}
 		return purchasePojos;

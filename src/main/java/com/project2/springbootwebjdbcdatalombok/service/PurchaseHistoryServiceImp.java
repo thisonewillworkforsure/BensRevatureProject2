@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.project2.springbootwebjdbcdatalombok.dao.PurchaseHistoryDao;
 import com.project2.springbootwebjdbcdatalombok.entity.PurchaseHistoryEntity;
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
+import com.project2.springbootwebjdbcdatalombok.pojo.HistoryPojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchaseHistoryPojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchasePojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.ShoppingCartItemPojo;
@@ -75,6 +76,12 @@ public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
 	public void deletePurchaseHistory(int id) throws ApplicationException {
 		// TODO Auto-generated method stub
 		purchaseHistoryDao.deleteById(id);
+	}
+
+	@Override
+	public List<HistoryPojo> getHistoryForOne(int userID) throws ApplicationException {
+		return purchaseHistoryDao.findByUserID(userID);
+		
 	}
 
 }

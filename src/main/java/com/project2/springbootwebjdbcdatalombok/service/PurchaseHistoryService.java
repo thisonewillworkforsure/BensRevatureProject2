@@ -4,6 +4,7 @@ import java.awt.PrintGraphics;
 import java.util.List;
 
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
+import com.project2.springbootwebjdbcdatalombok.pojo.HistoryPojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchaseHistoryPojo;
 
 public interface PurchaseHistoryService {
@@ -17,5 +18,7 @@ public interface PurchaseHistoryService {
 	PurchaseHistoryPojo updatePurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException;
 	
 	void deletePurchaseHistory(int id) throws ApplicationException;
+	
+	List<HistoryPojo> getHistoryForOne(int userID) throws ApplicationException;
 	
 }
