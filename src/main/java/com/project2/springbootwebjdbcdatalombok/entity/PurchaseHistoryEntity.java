@@ -13,20 +13,17 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
-import javax.persistence.SqlResultSetMapping;
 import javax.persistence.Table;
-
-import com.project2.springbootwebjdbcdatalombok.pojo.HistoryPojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@SqlResultSetMapping(name="historyResult", classes = {
+/*@SqlResultSetMapping(name="historyResult", classes = {
 @ConstructorResult(targetClass = HistoryPojo.class, 
 columns = {@ColumnResult(name="totalcost"), @ColumnResult(name="purchasedate"),@ColumnResult(name = "purchases")})
 })
-
+*/
 
 @NoArgsConstructor
 @AllArgsConstructor

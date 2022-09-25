@@ -3,6 +3,7 @@ package com.project2.springbootwebjdbcdatalombok.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,8 +17,9 @@ import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchasePojo;
 import com.project2.springbootwebjdbcdatalombok.service.PurchaseService;
 
+@CrossOrigin
 @RestController
-@RequestMapping("api/purchase")
+@RequestMapping("api/purchases")
 public class PurchaseController {
 
 	@Autowired
