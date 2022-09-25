@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.project2.springbootwebjdbcdatalombok.dao.PurchaseDao;
 import com.project2.springbootwebjdbcdatalombok.entity.PurchaseEntity;
+import com.project2.springbootwebjdbcdatalombok.entity.ShoppingCartItemEntity;
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
 import com.project2.springbootwebjdbcdatalombok.pojo.PurchasePojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.ShoppingCartItemPojo;
@@ -65,6 +66,14 @@ public class PurchaseServiceImp implements PurchaseService {
 		purchaseEntity.setPurchaseDate(purchasePojo.getPurchaseDate());
 		purchaseEntity.setTotalCost(purchasePojo.getTotalCost());
 		purchaseEntity.setUserID(purchasePojo.getUserID());
+		List<ShoppingCartItemEntity> ents = new ArrayList<ShoppingCartItemEntity>();
+		purchasePojo.getShoppingCartItemPojos().forEach((pojo)->{
+			ShoppingCartItemEntity shoppingCartItemEntity = new ShoppingCartItemEntity();
+			BeanUtils.copyProperties(pojo, shoppingCartItemEntity);
+			ents.add(shoppingCartItemEntity);
+			
+		});
+		purchaseEntity.setShoppingCartItemEntities(ents);
 		purchaseDao.saveAndFlush(purchaseEntity);
 		purchasePojo.setPurchaseID(purchaseEntity.getPurchaseID());
 		return purchasePojo;
