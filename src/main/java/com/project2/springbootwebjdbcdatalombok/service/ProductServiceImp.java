@@ -55,6 +55,7 @@ public class ProductServiceImp implements ProductService {
 			productEntity.setProductCost(productPojo.getProductCost());
 			productEntity.setProductName(productPojo.getProductName());
 			productDao.saveAndFlush(productEntity);
+			System.out.println(productEntity);
 			productPojo.setProductID(productEntity.getProductID());
 			return productPojo;
 		} catch (Exception e) {

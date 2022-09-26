@@ -30,25 +30,25 @@ import com.project2.springbootwebjdbcdatalombok.service.ProfileServiceImp;
 public class ProfileServiceImpTest {
 
 	@InjectMocks
-	ProfileServiceImp profileServiceImp;
+	private ProfileServiceImp profileServiceImp;
 	
 	@Mock
-	ProfilePojo profilePojo;
+	private ProfilePojo profilePojo;
 	
 	@Mock
-	ProfilePojo otherPojo;
+	private ProfilePojo otherPojo;
 	
 	@Mock
-	ProfileEntity profileEntity;
+	private ProfileEntity profileEntity;
 	
 	@Mock
-	List<ProfilePojo> profilePojos;
+	private List<ProfilePojo> profilePojos;
 	
 	@Mock
-	List<ProfileEntity> profileEntities;
+	private List<ProfileEntity> profileEntities;
 	
 	@Mock
-	ProfileDao profileDao;
+	private ProfileDao profileDao;
 	
 	@BeforeEach
 	public void beforeEach() {
@@ -121,7 +121,8 @@ public class ProfileServiceImpTest {
 			// TODO Auto-generated catch block
 			assertEquals(1, 0);
 		}
-		assertEquals(profilePojo.getUserID(), otherPojo.getUserID());
+		System.out.println(profilePojo);
+		assertEquals(profilePojo.getUserID(), profileEntity.getUserID());
 	}
 	
 	@Test
