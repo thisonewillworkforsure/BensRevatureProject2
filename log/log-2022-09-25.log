@@ -3109,3 +3109,851 @@ Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non colle
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.createPurchase :: 14 ms
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseServiceImp
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.createPurchase :: 20 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 5 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 9 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 11 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 6 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 9 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 3 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 3 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 5 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 9 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 11 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 3 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 3 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 3 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 4 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 4 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 4 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 4 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 4 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 0 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.createPurchase :: 5 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.createPurchase :: 6 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 4 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 4 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 0 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered deleteShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered deleteShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered deleteById of CrudRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.deleteById :: 4 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited deleteById of CrudRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.deleteShoppingCartItem :: 6 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited deleteShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.deleteShoppingCartItem :: 6 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited deleteShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 0 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered deleteShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered deleteShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered deleteById of CrudRepository
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.deleteById :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited deleteById of CrudRepository
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.deleteShoppingCartItem :: 3 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited deleteShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.deleteShoppingCartItem :: 3 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited deleteShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 4 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 4 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.updateShoppingCartItem :: 4 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 0 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.createPurchase :: 3 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.createPurchase :: 4 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 0 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 0 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 3 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 3 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 0 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 0 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 5 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 5 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 0 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 3 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 3 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.updateShoppingCartItem :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.createShoppingCartItem :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.createShoppingCartItem :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited createShoppingCartItem of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemDao.findByUserID :: 0 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ShoppingCartItemDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemController.getAllShoppingCartItemForOne :: 0 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 0 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 0 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 0 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ShoppingCartItemServiceImp.updateShoppingCartItem :: 0 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited updateShoppingCartItem of ShoppingCartItemServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.createPurchase :: 3 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.createPurchase :: 5 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited createPurchase of PurchaseController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 0 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 3 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 8 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 8 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of PurchaseDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of PurchaseDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseServiceImp.getAllPurchaseForOne :: 6 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 6 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 5 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 5 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 3 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 3 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
