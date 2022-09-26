@@ -7692,3 +7692,6 @@ org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique co
 [http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
 [http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
 [http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
