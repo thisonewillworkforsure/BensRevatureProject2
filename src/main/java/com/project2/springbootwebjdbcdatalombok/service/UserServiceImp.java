@@ -3,6 +3,8 @@ package com.project2.springbootwebjdbcdatalombok.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
@@ -12,6 +14,7 @@ import org.springframework.stereotype.Service;
 import com.project2.springbootwebjdbcdatalombok.dao.UserDao;
 import com.project2.springbootwebjdbcdatalombok.entity.UsersEntity;
 import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
+import com.project2.springbootwebjdbcdatalombok.pojo.ProfilePojo;
 import com.project2.springbootwebjdbcdatalombok.pojo.UserPojo;
 
 @Service
@@ -23,6 +26,9 @@ public class UserServiceImp implements UserService {
 	//UserDao Reference Variable
 	@Autowired
 	UserDao userDao;
+	
+	@Autowired
+	ProfileService profileService;
 	
 	@Override
 	public List<UserPojo> getAllUsers() throws ApplicationException {
@@ -49,6 +55,7 @@ public class UserServiceImp implements UserService {
 		return null;
 	}
 
+	@Transactional
 	@Override
 	public UserPojo createUser(UserPojo userPojo) throws ApplicationException {
 		// TODO Auto-generated method stub
@@ -61,6 +68,9 @@ public class UserServiceImp implements UserService {
 			usersEntity.setUserPassword(userPojo.getUserPassword());
 			userDao.saveAndFlush(usersEntity);
 			userPojo.setUserID(usersEntity.getUserID());
+			if(userPojo.getTypeID() ==2){//customer ID! making profile
+				profileService.createProfile(new ProfilePojo(0,userPojo.getUserID(),"","","",""));
+			}
 			return userPojo;
 		} catch (Exception e) {
 			logger.error(e.getMessage(),e);
