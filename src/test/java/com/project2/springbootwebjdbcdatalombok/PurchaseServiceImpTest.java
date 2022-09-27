@@ -138,7 +138,7 @@ public class PurchaseServiceImpTest {
 		purchaseEntities.add(purchaseEntity);
 		
 		try {
-			Mockito.when(purchaseDao.findByUserID(anyInt())).thenReturn(purchaseEntities);
+			Mockito.when(purchaseDao.findByUserIDOrderByPurchaseIDDesc(anyInt())).thenReturn(purchaseEntities);
 			purchasePojos = purchaseServiceImp.getAllPurchaseForOne(purchasePojo.getUserID());
 		} catch (ApplicationException e) {
 			// TODO Auto-generated catch block

@@ -49,7 +49,7 @@ public class PurchaseServiceImp implements PurchaseService {
 	@Override
 	public List<PurchasePojo> getAllPurchaseForOne(int user_id) throws ApplicationException {
 		// TODO Auto-generated method stub
-		List<PurchaseEntity> purchaseEntities =  purchaseDao.findByUserID(user_id);
+		List<PurchaseEntity> purchaseEntities =  purchaseDao.findByUserIDOrderByPurchaseIDDesc(user_id);
 		List<PurchasePojo> purchasePojos = new ArrayList<>();
 		for(PurchaseEntity ent : purchaseEntities) {
 			PurchasePojo purchasePojo = new PurchasePojo();

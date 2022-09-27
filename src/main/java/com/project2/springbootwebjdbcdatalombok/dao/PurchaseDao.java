@@ -14,4 +14,6 @@ import com.project2.springbootwebjdbcdatalombok.entity.ShoppingCartItemEntity;
 public interface PurchaseDao extends JpaRepository<PurchaseEntity, Integer> {
 
 	List<PurchaseEntity> findByUserID(int id);
+	
+	List<PurchaseEntity> findByUserIDOrderByPurchaseIDDesc(int id);
 }
