@@ -2419,3 +2419,155 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseServiceImp
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of PurchaseController.getAllPurchaseForOne :: 34 ms
 [http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getAllPurchaseForOne of PurchaseController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 23 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductController.getAllProduct :: 26 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getAllProduct of ProductController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 3 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getAllUsers :: 8 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getAllUsers :: 8 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getAllUsers of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-1] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-7] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 2 ms
+[http-nio-8080-exec-6] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-8] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 1 ms
+[http-nio-8080-exec-9] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-10] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserController
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Entered findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserDao.findByUserNameAndUserPassword :: 1 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited findByUserNameAndUserPassword of UserDao
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserServiceImp.getOneUser :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserServiceImp
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Execution time of UserController.getOneUser :: 2 ms
+[http-nio-8080-exec-2] INFO  c.p.s.aop.LoggingAspect - Exited getOneUser of UserController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileController
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Entered findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileDao.findByUserID :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited findByUserID of ProfileDao
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileServiceImp.getOneProfile :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileServiceImp
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Execution time of ProfileController.getOneProfile :: 1 ms
+[http-nio-8080-exec-3] INFO  c.p.s.aop.LoggingAspect - Exited getOneProfile of ProfileController
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllProduct of ProductController
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Entered getAllProducts of ProductServiceImp
+[http-nio-8080-exec-4] INFO  c.p.s.aop.LoggingAspect - Entered getAllShoppingCartItemForOne of ShoppingCartItemServiceImp
+[http-nio-8080-exec-5] INFO  c.p.s.aop.LoggingAspect - Execution time of ProductServiceImp.getAllProducts :: 3 ms
