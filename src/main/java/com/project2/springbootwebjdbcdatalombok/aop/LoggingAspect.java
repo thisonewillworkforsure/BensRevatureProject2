@@ -17,9 +17,6 @@ import org.slf4j.LoggerFactory;
 public class LoggingAspect {
 	private static final Logger LOGGER = LoggerFactory.getLogger(LoggingAspect.class);
 	   
-      // @Around is the advice
-	  // execution(...) is the point cut expression
-	
 	  @Around("execution(* com.project2.springbootwebjdbcdatalombok..*(..)))")
 	    public Object profileAllMethods(ProceedingJoinPoint proceedingJoinPoint) throws Throwable 
 	    {

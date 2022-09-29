@@ -23,13 +23,13 @@ import lombok.ToString;
 @Setter
 @ToString
 
-//JPA annotations
+
 @Entity
 @Table(name="users")
 public class UsersEntity {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //for the primary key
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	
 	@Column(name="user_id")
 	private int userID;
@@ -46,10 +46,4 @@ public class UsersEntity {
 	@Column(name="status_id")
 	private int statusID;
 	
-	
-	/*@OneToOne(mappedBy = "UsersEntity", fetch = FetchType.LAZY, orphanRemoval = false)
-	private ProfileEntity profileEntity = new ProfileEntity();*/
-	
-    /*@OneToMany(mappedBy = "user", fetch = FetchType.LAZY, orphanRemoval = false)
-    private List<Authority> listAuthorities = new ArrayList<>();*/
 }

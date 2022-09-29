@@ -53,12 +53,7 @@ public class PurchaseHistoryServiceImp implements PurchaseHistoryService {
 
 	@Override
 	public PurchaseHistoryPojo createPurchaseHistory(PurchaseHistoryPojo purchaseHistoryPojo) throws ApplicationException {
-		// TODO Auto-generated method stub
-		/*PurchaseHistoryEntity purchaseHistoryEntity = new PurchaseHistoryEntity();
-		purchaseHistoryEntity.setPurchaseID(purchaseHistoryPojo.getPurchaseID());
-		purchaseHistoryEntity.setShoppingID(purchaseHistoryPojo.getShoppingID());
-		purchaseHistoryDao.saveAndFlush(purchaseHistoryEntity);
-		purchaseHistoryPojo.setPurchaseHistoryID(purchaseHistoryEntity.getPurchaseHistoryID());*/
+		//IS NOT USED!
 		return purchaseHistoryPojo;
 	}
 

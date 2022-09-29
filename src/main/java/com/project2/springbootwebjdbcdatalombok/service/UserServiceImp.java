@@ -23,7 +23,7 @@ public class UserServiceImp implements UserService {
 	private static final Logger logger = LoggerFactory.getLogger(UserServiceImp.class);
 	
 	
-	//UserDao Reference Variable
+	
 	@Autowired
 	UserDao userDao;
 	
@@ -32,8 +32,6 @@ public class UserServiceImp implements UserService {
 	
 	@Override
 	public List<UserPojo> getAllUsers() throws ApplicationException {
-		// TODO Auto-generated method stub
-		//logger.info("Invoking getAllUsers in the service layer");
 		List<UsersEntity> allUsersEntities = userDao.findAll();
 		List<UserPojo> allUserPojos = new ArrayList<UserPojo>();
 		allUsersEntities.forEach((user)->{
@@ -45,7 +43,6 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public UserPojo getOneUser(String userName, String passWord) throws ApplicationException {
-		// TODO Auto-generated method stub
 		List<UsersEntity> usersEntities = userDao.findByUserNameAndUserPassword(userName, passWord);
 		if(usersEntities.size() != 0) {
 		UserPojo userPojo = new UserPojo();	
@@ -58,7 +55,6 @@ public class UserServiceImp implements UserService {
 	@Transactional
 	@Override
 	public UserPojo createUser(UserPojo userPojo) throws ApplicationException {
-		// TODO Auto-generated method stub
 		try {
 			System.out.println(userPojo);
 			UsersEntity usersEntity = new UsersEntity();
@@ -82,8 +78,6 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public UserPojo updateUser(UserPojo userPojo) throws ApplicationException {
-		// TODO Auto-generated method stub
-		//logger.info("Entered updateUser in the service layer");
 		UsersEntity usersEntity = new UsersEntity();
 		BeanUtils.copyProperties(userPojo, usersEntity);
 		userDao.save(usersEntity);
@@ -92,8 +86,6 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public void deleteUser(int userID) throws ApplicationException {
-		// TODO Auto-generated method stub
-		//logger.info("Entering the deleteUser method in the service layer");
 		userDao.deleteById(userID);
 	}
 

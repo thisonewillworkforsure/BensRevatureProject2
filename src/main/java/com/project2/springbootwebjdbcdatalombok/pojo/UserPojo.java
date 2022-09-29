@@ -18,11 +18,3 @@ public class UserPojo {
 	private int statusID;
 }
 
-
-/*
- * @Column(name = "salary", nullable = false)
-@NotNull(message= "salary may not be empty")
-@Range(min = 1)
-private Integer salary;
- * 
- * */

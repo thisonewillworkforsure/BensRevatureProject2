@@ -19,18 +19,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/*@SqlResultSetMapping(name="historyResult", classes = {
-@ConstructorResult(targetClass = HistoryPojo.class, 
-columns = {@ColumnResult(name="totalcost"), @ColumnResult(name="purchasedate"),@ColumnResult(name = "purchases")})
-})
-*/
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-
-
-
 
 
 @Entity

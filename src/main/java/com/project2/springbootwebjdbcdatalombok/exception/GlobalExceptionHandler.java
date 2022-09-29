@@ -21,20 +21,17 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 	protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
 			HttpHeaders headers, HttpStatus status, WebRequest request) {
 		// TODO Auto-generated method stub
-		Map<String, String> errorsMap = new HashMap<String,String>(); //this hashmap will hold all the validation error messages
+		Map<String, String> errorsMap = new HashMap<String,String>();
 		ex.getBindingResult().getAllErrors().forEach((error)->{
 			String fieldString = ((FieldError)error).getField();
 			String errorMessage = error.getDefaultMessage();
 			errorsMap.put(fieldString, errorMessage);
 		});
 		
-		//now the hashmap errors has all the field names and it's corresponding
-		//error messages
-		//return the hasmap by enclosing it in a response entity
+		
 		return new ResponseEntity<Object>(errorsMap, HttpStatus.BAD_REQUEST);
 		
-		//go ahead and handle custom exceptions
-		//need to use exception handler
+	
 	}
 
 	

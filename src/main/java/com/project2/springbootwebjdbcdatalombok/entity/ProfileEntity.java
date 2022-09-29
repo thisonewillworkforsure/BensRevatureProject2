@@ -31,11 +31,6 @@ public class ProfileEntity {
 	@Column(name="profile_id")
 	private int profileID;
 	
-	/*
-	@ManyToOne
-	@JoinColumn(name = "user_id")
-	private UsersEntity usersEntity;
-	*/
 	
 	@NotNull
 	@Column(name = "user_ID")
@@ -53,15 +48,4 @@ public class ProfileEntity {
 	@Column(name = "description")
 	private String description;
 	
-	/*@OneToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "users.user_id")*/
-	
-	
-	/*
-	 * @ManyToOne(fetch = FetchType.LAZY)
-@JoinColumn(name = "user.username")
-private User user;
-	 * 
-	 * 
-	 * */
 }
