@@ -25,7 +25,6 @@ import com.project2.springbootwebjdbcdatalombok.exception.ApplicationException;
 import com.project2.springbootwebjdbcdatalombok.pojo.ProfilePojo;
 import com.project2.springbootwebjdbcdatalombok.service.ProfileServiceImp;
 
-//@MockitoSettings(strictness = Strictness.LENIENT)
 @ExtendWith(MockitoExtension.class)
 public class ProfileServiceImpTest {
 
